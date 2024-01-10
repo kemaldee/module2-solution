@@ -5,7 +5,8 @@ body{
     background-color: white;
 }
 h1{
-    margin-bottom: 15px;
+    margin-top: 40px;
+    margin-bottom: 25px;
     text-align: center;
     color: black;
     font-size: 50px;
@@ -22,7 +23,7 @@ p {
 }
 div {
     position: relative;
-    background-color: gray;
+    background-color: #a8a8a8;
     border: 3px solid black;
     width: 100%;
     margin-left: auto;
@@ -31,61 +32,63 @@ div {
 }
 .menu1 {
     float: right;
-    width: 100px;
+    color: black;
+    width: 80px;
     padding: 5px;
     margin: -3px -3px 0px;
     border: 3px solid black;
     text-align: center;
     font-size: 125%;
-    font-weight: bold;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     background-color: #D59898;
 }
 .menu2 {
     float: right;
     color: white;
-    width: 100px;
+    width: 80px;
     padding: 5px;
     margin: -3px -3px 0px;
     border: 3px solid black;
     text-align: center;
     font-size: 125%;
-    font-weight: bold;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     background-color: #C14543;
 }
 .menu3 {
-    color: black;
     float: right;
-    width: 100px;
+    color: black;
+    width: 80px;
     padding: 5px;
     margin: -3px -3px 0px;
     border: 3px solid black;
     text-align: center;
     font-size: 125%;
-    font-weight: bold;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     background-color: #E5D198;
 
 }
 .content {
-    padding: 5px;
+    padding: 15px;
     border: none;
-    background-color: gray;
+    background-color: #a8a8a8;
+    font-weight: bold;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: black;
     margin: 3px ;
-    height: 150px;
+    height: 140px;
     overflow: auto;
 }
 .row {
     width: 90%;
 }
-/* Desktop Version */
+/* Desktop-Version */
 @media (min-width: 992px) {
     .col-lg-4 {
         float: left;
         width: 33.33%;
     }
 }
-/* Tablet Version */
+/* Tablet-Version */
 @media (min-width: 768px) and (max-width: 991px) {
     .col-md-6 {
         float: left;
@@ -100,10 +103,10 @@ div {
         margin-right: auto;
     }
 }
-/* Mobile Version */
+/* Mobile-Version */
 @media (max-width: 767px) {
     .col-sm-12 {
         float: left;
         width: 100%;
     }
-    }
+}
